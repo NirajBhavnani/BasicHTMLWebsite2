@@ -1,0 +1,113 @@
+/* This is done for no upper space at the top */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Greyish background */
+html, body {
+    min-height: 100vh;
+    background-color: #C0C0C0;
+}
+
+.container h2{
+    color: #FFFFFF;
+    text-shadow: 2px 2px #000000;
+    font-size: 40px;
+    font-family: 'Brush Script MT', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+.container nav {
+    display: flex;
+    background-color: #FF00FF;
+    height: 70px;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container nav a{
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Steelfish', sans-serif;
+}
+
+.search-textbox{
+    border: none;
+    padding: 5px;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Steelfish', sans-serif;
+}
+
+.search-button{
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px 20px;
+    font-family: 'Steelfish', sans-serif;
+}
+
+/* Middle content */
+.container2{
+    display: flex;
+    width: 70%;
+    margin: 10px auto;
+    justify-content: space-around;
+}
+
+.box1{
+    flex: 3;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Steelfish', sans-serif;
+    margin-left: 0;
+    margin-right: 10px;
+    padding: 10px 30px;
+    line-height: 2;
+}
+
+.box1 h1{
+    font-size: 40px;
+}
+
+.box1 h2{
+    font-size: 30px;
+}
+
+.box2{
+    flex: 1;
+    background-color: #FF00FF;
+    color: #000000;
+    font-family: 'Steelfish', sans-serif;
+    margin-right: 0;
+    padding: 10px 30px;
+}
+
+.box2 h1{
+    font-size: 40px;
+}
+
+.box2 ul{
+    line-height: 2;
+    padding: 30px;
+}
+
+/* footer */
+.container3{
+    display: flex;
+    width: 70%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Steelfish', sans-serif;
+}
